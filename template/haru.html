@@ -13,8 +13,8 @@
       margin: 4rem auto;
       padding: 0 1rem;
       font-family: 'Muli', sans-serif;
-      background-color: #222426;
-      color: #d8d8d8;
+      background-color: #{{base0}};
+      color: #{{base3}};
       font-size: 1rem;
     }
 
@@ -27,9 +27,9 @@
       padding-left: 8px;
     }
 
-    .table-dark { color:#d8d8d8; background-color: #222426; }
-    td { text-align: center; color: #a9c474; }
-    th { color: #d8d8d8; }
+    .table-dark { color:#{{base3}}; background-color: #{{base0}}; }
+    td { text-align: center; color: #{{green}}; }
+    th { color: #{{base3}}; }
     h2 {
       font-size: 1.6rem;
       margin-top: 4rem;
@@ -50,18 +50,18 @@
     .blue    { color: #{{blue}}; }
     .violet  { color: #{{violet}}; }
     .magenta { color: #{{magenta}}; }
-    .base0-bg   { color: #{{base0}}; }
-    .base1-bg   { color: #{{base1}}; }
-    .base2-bg   { color: #{{base2}}; }
-    .base3-bg   { color: #{{base3}}; }
-    .red-bg     { color: #{{red}}; }
-    .orange-bg  { color: #{{orange}}; }
-    .yellow-bg  { color: #{{yellow}}; }
-    .green-bg   { color: #{{green}}; }
-    .cyan-bg    { color: #{{cyan}}; }
-    .blue-bg    { color: #{{blue}}; }
-    .violet-bg  { color: #{{violet}}; }
-    .magenta-bg { color: #{{magenta}}; }
+    .base0-bg   { background-color: #{{base0}}; }
+    .base1-bg   { background-color: #{{base1}}; }
+    .base2-bg   { background-color: #{{base2}}; }
+    .base3-bg   { background-color: #{{base3}}; }
+    .red-bg     { background-color: #{{red}}; }
+    .orange-bg  { background-color: #{{orange}}; }
+    .yellow-bg  { background-color: #{{yellow}}; }
+    .green-bg   { background-color: #{{green}}; }
+    .cyan-bg    { background-color: #{{cyan}}; }
+    .blue-bg    { background-color: #{{blue}}; }
+    .violet-bg  { background-color: #{{violet}}; }
+    .magenta-bg { background-color: #{{magenta}}; }
 
     .psuedo-border { height: 1px; margin: 2rem 0rem; color: rgba(0, 0, 0, 0) }
     .color-sample { height: 3rem; margin: 3px; }
@@ -106,10 +106,10 @@
         <div class="col magenta"><div class="color-sample magenta-bg rounded"> </div>#{{magenta}}</div>
       </div>
       <div class="row no-gutters mt-3">
-        <div class="col base0"><div class="color-sample base0-bg rounded"> </div>#</div>
-        <div class="col base1"><div class="color-sample base1-bg rounded"> </div>#e682ad</div>
-        <div class="col base2"><div class="color-sample base2-bg rounded"> </div>#da9372</div>
-        <div class="col base3"><div class="color-sample base3-bg rounded"> </div>#d3b874</div>
+        <div class="col base3"><div class="color-sample base0-bg rounded border border-secondary"> </div>#{{base0}}</div>
+        <div class="col base3"><div class="color-sample base1-bg rounded border border-secondary"> </div>#{{base1}}</div>
+        <div class="col base3"><div class="color-sample base2-bg rounded"> </div>#{{base2}}</div>
+        <div class="col base3"><div class="color-sample base3-bg rounded"> </div>#{{base3}}</div>
       </div>
     </div>
   </p>
