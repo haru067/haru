@@ -27,7 +27,10 @@ for k in colors:
         continue
     rgb = hex_to_int_color(colors[k])
     rgb = [ x / 255 for x in rgb ]
-    result[k] = {'hex': colors[k], 'r': rgb[0], 'g': rgb[1], 'b': rgb[2]}
+    result[k] = colors[k]
+    result[k + '-r'] = rgb[0]
+    result[k + '-g'] = rgb[1]
+    result[k + '-b'] = rgb[2]
 
 with open(sys.argv[2], 'w+') as f:
     f.write(yaml.dump(result))
