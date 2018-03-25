@@ -27,7 +27,7 @@ op = ""
 for k in colors:
     if (not is_hex(colors[k])):
         continue
-    op += f's/{colors[k]}/{{{{ {k} }}}}/gi;'
+    op += f's/{colors[k]}/{{{{{k}}}}}/gi;'
 cmd.append(op) 
 cmd.append(sys.argv[2])
 subprocess.call(cmd)
