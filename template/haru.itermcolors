@@ -241,13 +241,13 @@
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>{{base4-b}}</real>
+		<real>{{orange-b}}</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>{{base4-g}}</real>
+		<real>{{orange-g}}</real>
 		<key>Red Component</key>
-		<real>{{base4-r}}</real>
+		<real>{{orange-r}}</real>
 	</dict>
 	<key>Cursor Color</key>
 	<dict>
@@ -319,26 +319,26 @@
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>{{base4-b}}</real>
+		<real>{{base3-b}}</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>{{base4-g}}</real>
+		<real>{{base3-g}}</real>
 		<key>Red Component</key>
-		<real>{{base4-r}}</real>
+		<real>{{base3-r}}</real>
 	</dict>
 	<key>Selection Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>{{base1-b}}</real>
+		<real>{{select-b}}</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>{{base1-g}}</real>
+		<real>{{select-g}}</real>
 		<key>Red Component</key>
-		<real>{{base1-r}}</real>
+		<real>{{select-r}}</real>
 	</dict>
 </dict>
 </plist>

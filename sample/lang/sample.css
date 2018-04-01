@@ -1,0 +1,20 @@
+.stage-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0.6rem 0.8rem;
+  background-color: rgba(0,0,0,0.6);
+}
+
+stage {
+  display: block;
+  background: url(../img/ika-stage-regular.png) repeat #689F38;
+  margin: 0.6rem 0.8rem;
+}
+
+@media (max-width: 420px) {
+  round div.schedule-container { flex-direction: column; }
+  schedule { margin: 2rem auto; }
+
+  .stage-container { flex-direction: column; }
+}

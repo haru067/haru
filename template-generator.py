@@ -16,7 +16,7 @@ def is_hex(v):
     return re.match(pattern, v)
 
 if len(sys.argv) != 3:
-    print('Usage: python ./replace.py [colorfile] [input]')
+    print('Usage: python ./template-generator.py [colorfile] [input]')
     sys.exit()
 f = open(sys.argv[1], 'r+')
 colors = yaml.load(f)
