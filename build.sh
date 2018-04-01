@@ -8,4 +8,4 @@ mustache $tmpfile ./template/haru.itermcolors > ./dist/iterm/haru.itermcolors
 mustache $tmpfile ./template/haru067-color-theme.json > ./dist/vscode/themes/haru067-color-theme.json
 rm $tmpfile
 cp -r ./dist/web/* ./docs
-mv ./docs/haru.html index.html
+mv ./docs/haru.html ./docs/index.html
