@@ -306,13 +306,13 @@
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>{{blue-b}}</real>
+		<real>{{cyan-b}}</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>{{blue-g}}</real>
+		<real>{{cyan-g}}</real>
 		<key>Red Component</key>
-		<real>{{blue-r}}</real>
+		<real>{{cyan-r}}</real>
 	</dict>
 	<key>Selected Text Color</key>
 	<dict>
