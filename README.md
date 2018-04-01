@@ -10,7 +10,7 @@ See ./dist
 ### Publish color schemes from color pallet
 Colors are defined in yaml
 ```
-cat src/haru.yml
+$ cat src/haru.yml
 yellow     : "deb757"
 green      : "b7dd6c"
 ...
@@ -18,7 +18,7 @@ green      : "b7dd6c"
 
 Append other formats
 ```
-python format.py src/haru.yml
+$ python format.py src/haru.yml
 yellow     : "deb757"
 yellow-r     : 0.3411764705882353
 yellow-b     : 0.7176470588235294
@@ -42,5 +42,5 @@ these tasks are executed by build.sh
 Use convert script to create template files from editor-generate files.
 This script simply replace matching colors from specified yaml file
 ```
-python template-generator.py ./src/haru.yml ./sample/vscode-colortheme.json
+$ python template-generator.py ./src/haru.yml ./sample/vscode-colortheme.json
 ```
