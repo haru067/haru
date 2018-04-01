@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+  <title>haru</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,700" rel="stylesheet">
+  <style>
+    @media screen and (min-width: 44rem) {
+      body { width: 44rem; }
+    }
+
+    body {
+      margin: 4rem auto;
+      padding: 0 1rem;
+      font-family: 'Muli', sans-serif;
+      background-color: #{{base0}};
+      color: #{{base3}};
+      font-size: 1rem;
+    }
+
+    a { color: #{{blue}}; }
+    a:hover { color: #{{blue}}; }
+
+    .display-2 {
+      font-weight: 700;
+      letter-spacing: 16px;
+      padding-left: 8px;
+    }
+
+    .table-dark { color:#{{base3}}; background-color: #{{base0}}; }
+    td { text-align: center; color: #{{green}}; }
+    th { color: #{{base3}}; }
+    h2 {
+      font-size: 1.6rem;
+      margin-top: 4rem;
+    }
+    h3 {
+      margin-top: 2rem;
+    }
+
+    .base0        { color: #{{base0}}; }
+    .base1        { color: #{{base1}}; }
+    .base2        { color: #{{base2}}; }
+    .base3        { color: #{{base3}}; }
+    .base4        { color: #{{base4}}; }
+    .base5        { color: #{{base5}}; }
+    .select       { color: #{{select}}; }
+    .select-bri   { color: #{{select-bri}}; }
+    .red          { color: #{{red}}; }
+    .orange       { color: #{{orange}}; }
+    .yellow       { color: #{{yellow}}; }
+    .green        { color: #{{green}}; }
+    .cyan         { color: #{{cyan}}; }
+    .blue         { color: #{{blue}}; }
+    .violet       { color: #{{violet}}; }
+    .magenta      { color: #{{magenta}}; }
+    .base0-bg       { background-color: #{{base0}}; }
+    .base1-bg       { background-color: #{{base1}}; }
+    .base2-bg       { background-color: #{{base2}}; }
+    .base3-bg       { background-color: #{{base3}}; }
+    .base4-bg       { background-color: #{{base4}}; }
+    .base5-bg       { background-color: #{{base5}}; }
+    .select-bg      { background-color: #{{select}}; }
+    .select-bri-bg  { background-color: #{{select-bri}}; }
+    .red-bg         { background-color: #{{red}}; }
+    .orange-bg      { background-color: #{{orange}}; }
+    .yellow-bg      { background-color: #{{yellow}}; }
+    .green-bg       { background-color: #{{green}}; }
+    .cyan-bg        { background-color: #{{cyan}}; }
+    .blue-bg        { background-color: #{{blue}}; }
+    .violet-bg      { background-color: #{{violet}}; }
+    .magenta-bg     { background-color: #{{magenta}}; }
+
+    .psuedo-border { height: 1px; margin: 2rem 0rem; color: rgba(0, 0, 0, 0) }
+    .color-sample { height: 3rem; margin: 3px; }
+    .col { font-size: 0.8rem; text-align: center; }
+    .sample { object-fit: none; object-position: 0 0;}
+  </style>
+</head>
+<body>
+  <header class="text-center">
+    <h1 class="display-2 base3">haru</h1>
+    <p class="h5 green">"Calm, colorful color scheme"</p>
+  </header>
+  <div class="row psuedo-border">
+    <div class="col red-bg"> </div>
+    <div class="col orange-bg"> </div>
+    <div class="col yellow-bg"> </div>
+    <div class="col green-bg"> </div>
+    <div class="col cyan-bg"> </div>
+    <div class="col blue-bg"> </div>
+    <div class="col violet-bg"> </div>
+    <div class="col magenta-bg"> </div>
+  </div>
+  <div>
+  <p>
+    <span>haru</span> is a warm color palette for dark theme imaging around the corner spring.
+    It has wide range of hue inspired by Monokai and One Dark for syntax highlighting readability,
+    but also keeps friendly to eyes by picking pastel colors.
+  </p>
+  <p class="text-center">
+    <a href="https://github.com/haru067/haru">[GitHub]</a>
+  </p>
+  <h2>Colors</h2>
+  <p>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col red"><div class="color-sample red-bg rounded"> </div>#{{red}}</div>
+        <div class="col orange"><div class="color-sample orange-bg rounded"> </div>#{{orange}}</div>
+        <div class="col yellow"><div class="color-sample yellow-bg rounded"> </div>#{{yellow}}</div>
+        <div class="col green"><div class="color-sample green-bg rounded"> </div>#{{green}}</div>
+        <div class="col cyan"><div class="color-sample cyan-bg rounded"> </div>#{{cyan}}</div>
+        <div class="col blue"><div class="color-sample blue-bg rounded"> </div>#{{blue}}</div>
+        <div class="col violet"><div class="color-sample violet-bg rounded"> </div>#{{violet}}</div>
+        <div class="col magenta"><div class="color-sample magenta-bg rounded"> </div>#{{magenta}}</div>
+      </div>
+      <div class="row no-gutters mt-3">
+        <div class="col base3"><div class="color-sample base0-bg rounded border border-secondary"> </div>#{{base0}}</div>
+        <div class="col base3"><div class="color-sample base1-bg rounded border border-secondary"> </div>#{{base1}}</div>
+        <div class="col base3"><div class="color-sample base2-bg rounded"> </div>#{{base2}}</div>
+        <div class="col base3"><div class="color-sample base3-bg rounded"> </div>#{{base3}}</div>
+        <div class="col base3"><div class="color-sample base4-bg rounded"> </div>#{{base4}}</div>
+        <div class="col base3"><div class="color-sample base5-bg rounded"> </div>#{{base5}}</div>
+        <div class="col base3"><div class="color-sample select-bri-bg rounded"> </div>#{{select-bri}}</div>
+        <div class="col base3"><div class="color-sample select-bg rounded"> </div>#{{select}}</div>
+      </div>
+    </div>
+  </p>
+  <h2 class="head8">Samples</h2>
+  <p>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col p-2"><a href="./img/sample-vs-html.png" target="_blank"><img class="img-fluid sample" src="./img/sample-vs-html.png" alt="HTML"></a><br>HTML - VS Code</div>
+        <div class="col p-2"><a href="./img/sample-vs-css.png" target="_blank"><img class="img-fluid sample" src="./img/sample-vs-css.png" alt="CSS"></a><br>CSS - VS Code</div>
+      </div>
+    </div>
+  </p>
+  <h2 class="head8">Install</h2>
+    <h3 class="h5">VS Code</h3>
+    <ol>
+      <li>😪</li>
+    </ol>
+    <h3 class="h5">JetBranins(InteliJ IDEA, Android Studio, PhpStorm, PyCharm...)</h3>
+    <ol>
+      <li>😪</li>
+    </ol>
+    <h3 class="h5">iTerm2</h3>
+    <ol>
+      <li>On iTerm2, Preference -> Profiles -> Colors</li>
+      <li>Click Color presets... -> import</li>
+      <li>Select ./dist/iterm/haru.itermcolors</li>
+      <li>👍</li>
+    </ol>
+  <h2 class="head8">Language/Editor Support</h2>
+  <p>
+    haru is in beta. These environments are currently supported.
+  </p>
+  <table class="table table-sm table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col" class="text-center">JetBrains</th>
+        <th scope="col" class="text-center">VS Code</th>
+        <th scope="col" class="text-center">Vim</th>
+        <th scope="col" class="text-center">Atom</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">HTML</th>
+        <td></td> <td>✔</td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">CSS</th>
+        <td></td> <td>✔</td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">JavaScript</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">PHP</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Perl</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Ruby</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Python</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Java</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Kotlin</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">JSON</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Markdown</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Bash</th>
+        <td></td> <td></td> <td></td> <td></td>
+      </tr>
+    </tbody>
+  </table> 
+  <p>
+    If you find weird color setting on supported environment, feel free to send feedback to <a href="https://twitter.com/haru067">@haru067</a>.
+    You can also create pull request on 
+    <a href="https://github.com/haru067/haru">GitHub</a>😄
+  </p>
+  </div>
+  <footer class="my-4">
+    <div class="text-right">
+      <a href="https://twitter.com/haru067?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @haru067</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="github-button" href="https://github.com/haru067" aria-label="Follow @haru067 on GitHub">Follow @haru067</a>
+      <a class="github-button" href="https://github.com/haru067/haru" data-icon="octicon-star" aria-label="Star haru067/haru on GitHub">Star</a>
+    </div>
+  </footer>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
